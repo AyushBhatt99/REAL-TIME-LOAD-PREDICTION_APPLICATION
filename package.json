@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "fs": "^0.0.1-security",
+    "minmaxscaler": "^1.0.1",
+    "ml-regression": "^6.2.0",
+    "ml-regression-multivariate-linear": "^2.0.4"
+  }
+}

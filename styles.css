@@ -1,0 +1,75 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+}
+
+.navbar {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar h1 {
+  margin: 10;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.project-details p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 300px;
+  margin: 100px auto; /* Centering the container with margin */
+}
+
+#cityForm {
+  display: flex;
+  flex-direction: column;
+}
+
+input[type="text"] {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  width: 100%;
+}
+
+button {
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+h2 {
+  font-size: 20px;
+  color: #333;
+  margin-top: 20px;
+}
+
+#predictedLoad {
+  font-size: 16px;
+  color: #ff4500;
+}
